@@ -1,0 +1,22 @@
+# Keil build products and local settings
+**/output/
+**/Objects/
+**/Listings/
+**/DebugConfig/
+*.o
+*.d
+*.axf
+*.elf
+*.map
+*.lst
+*.crf
+*.dep
+*.bak
+*.uvoptx
+*.uvguix*
+*.scvd
+*.exe
+*_alog.txt
+__pycache__/
+.DS_Store
+Thumbs.db

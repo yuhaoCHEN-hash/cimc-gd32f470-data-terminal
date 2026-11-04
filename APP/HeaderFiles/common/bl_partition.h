@@ -1,0 +1,31 @@
+// 头文件
+#ifndef COMMON_BL_PARTITION_H
+#define COMMON_BL_PARTITION_H
+
+#include <stdint.h>
+
+#define BL_FLASH_BASE_ADDR          0x08000000UL
+#define BL_FLASH_TOTAL_SIZE         0x00080000UL
+#define BL_FLASH_END_ADDR           (BL_FLASH_BASE_ADDR + BL_FLASH_TOTAL_SIZE - 1UL)
+#define BL_FLASH_PAGE_SIZE          0x00001000UL
+
+#define BL_BOOT_START_ADDR          0x08000000UL
+#define BL_BOOT_SIZE                0x00010000UL
+#define BL_BOOT_END_ADDR            (BL_BOOT_START_ADDR + BL_BOOT_SIZE - 1UL)
+
+#define BL_PARAM_START_ADDR         0x08010000UL
+#define BL_PARAM_SIZE               0x00001000UL
+
+#define BL_APP1_START_ADDR          0x08011000UL
+#define BL_APP1_SIZE                0x00020000UL
+#define BL_APP1_END_ADDR            (BL_APP1_START_ADDR + BL_APP1_SIZE - 1UL)
+
+#define BL_APP2_START_ADDR          0x08031000UL
+#define BL_APP2_SIZE                0x00020000UL
+#define BL_APP2_END_ADDR            (BL_APP2_START_ADDR + BL_APP2_SIZE - 1UL)
+
+#define BL_DATA_START_ADDR          0x08051000UL
+#define BL_DATA_SIZE                0x00020000UL
+#define BL_DATA_END_ADDR            (BL_DATA_START_ADDR + BL_DATA_SIZE - 1UL)
+
+#endif // COMMON_BL_PARTITION_H

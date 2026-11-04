@@ -1,0 +1,12 @@
+队伍编号：2026570827
+
+系统开发环境：
+- MCU: GD32F470VET6 (Cortex-M4F, 240MHz)
+- IDE: Keil MDK uVision 5.43 (ARMCC v6)
+- 标准外设库: GD32F4xx Standard Peripheral Library V3.3.3
+- CMSIS: CMSIS 6.1
+- 调试器: DAP-Link (SWD)
+- 串口工具: RS485 (USART1, 19200-115200 baud)
+- 编译优化: -O0
+- C标准: C99
+- 微库: MicroLIB
